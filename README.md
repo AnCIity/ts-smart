@@ -1,65 +1,43 @@
-# ts-smart README
+# TS Smart
 
-This is the README for your extension "ts-smart". After writing up a brief description, we recommend including the following sections.
+A smart typescript helper.
 
-## Features
+[Email](mailto:city@nanzc.com 'send to email')
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+[Github](https://github.com/AnCIity/ts-smart 'open home in github')
 
-For example if there is an image subfolder under your extension project workspace:
+[VSCode](https://marketplace.visualstudio.com/items?itemName=City.ts-smart 'open home in vscode')
 
-\!\[feature X\]\(images/feature-x.png\)
+# Function
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- 根据 `JSON` 解析出 `TypeScript Interface`
 
-## Requirements
+- Parse `TypeScript Interface` from `JSON`
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+![skip.gif](https://www.hualigs.cn/image/61d5dab22411c.jpg)
 
-## Extension Settings
+- 并添加 `export`
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- And add `export`
 
-For example:
+![skip.gif](https://www.hualigs.cn/image/61d5db13a9e86.jpg)
 
-This extension contributes the following settings:
+# Start Use
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+1、选中需要解析的 JSON
 
-## Known Issues
+1、Select the JSON that you want to parse.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+2、`ctrl+shift+p`
 
-## Release Notes
+3、input `TS Smart: typeof json` or `TS Smart: typeof json export`
 
-Users appreciate release notes as you update your extension.
+# TODO List
 
-### 1.0.0
+- 添加自定义或默认快捷键（欢迎给出建议），开放更多参数，如前缀...
 
-Initial release of ...
+- Add custom or default shortcut keys (suggestions are welcome), open more parameters such as prefix...
 
-### 1.0.1
+- 根据 `export const json = {}` 自动识别是否添加 `export`
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+- Automatically identify whether to add `export` according to `export const json = {}`
