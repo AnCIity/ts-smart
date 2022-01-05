@@ -14,13 +14,13 @@ A smart typescript helper.
 
 - Parse `TypeScript Interface` from `JSON`
 
-![skip.gif](https://www.hualigs.cn/image/61d5dab22411c.jpg)
+![skip.gif](https://raw.githubusercontent.com/AnCIity/ts-smart/main/images/typeof-json.gif)
 
 - 并添加 `export`
 
 - And add `export`
 
-![skip.gif](https://www.hualigs.cn/image/61d5db13a9e86.jpg)
+![skip.gif](https://raw.githubusercontent.com/AnCIity/ts-smart/main/images/typeof-json-export.gif)
 
 # Start Use
 
